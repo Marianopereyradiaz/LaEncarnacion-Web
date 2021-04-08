@@ -1,0 +1,70 @@
+html,body {
+    background-image: url(/assets/fondo_img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;   
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color:rgba(211,211,211,0.8);
+    height: 90%;
+    width: 90%;
+    position:relative;
+    margin: 5%;
+    border-radius: 2%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    padding:5%;
+    z-index: 0;
+    text-align: center;
+    
+}
+ 
+.navbar{
+    opacity:0.9;
+}
+
+
+footer{
+    text-align: right;
+    padding-right: 5%;
+    opacity: 0.7;
+    font-size: smaller;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: white;
+      
+}
+
+.map-container{
+    background-color:white;
+    height: 80%;
+    width: 90%;
+    border-radius: 2%;
+    opacity: 1;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    padding:1%;
+    position:relative;
+    margin:5%;
+}
+
+
+.carousel-inner{
+    position: relative;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    max-width: 85%;
+    max-height: 50%;
+    box-shadow: 0px 0px 20px 20px silver;
+    border: 3px solid black;
+}
+
+
